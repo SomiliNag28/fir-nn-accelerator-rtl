@@ -1,0 +1,12 @@
+read_verilog rtl/mac_layer.v
+read_verilog rtl/accelerator_top.v
+hierarchy -top accelerator_top
+proc
+opt
+memory
+opt
+fsm
+opt
+techmap
+opt
+stat

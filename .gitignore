@@ -1,0 +1,4 @@
+data/
+*.vcd
+__pycache__/
+*.pyc

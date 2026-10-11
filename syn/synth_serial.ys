@@ -1,0 +1,11 @@
+read_verilog ../rtl/fir_serial.v
+hierarchy -top fir_serial
+proc
+opt
+memory
+opt
+fsm
+opt
+techmap
+opt
+stat
